@@ -2,16 +2,24 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <test msg="lzp" @tap1="tap"></test>
   </div>
 </template>
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import test from './components/test.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HelloWorld,
+    test
+  },
+  methods:{
+      tap:function(e){
+          console.log(e);
+      }
   }
 }
 </script>
