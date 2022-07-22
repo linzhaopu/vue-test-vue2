@@ -2,7 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/>
-    <test msg="lzp" @tap1="tap"></test>
+    <test test="lzp"></test>
   </div>
 </template>
 

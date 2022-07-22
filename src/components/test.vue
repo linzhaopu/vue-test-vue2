@@ -1,28 +1,15 @@
 <template>
-  <h2 class="red" @tap="tap1">test...{{msg}}</h2>
+ <li>{{test}}</li>
 </template>
 
 <script>
 export default {
     name:'test',
-    props: {
-        msg: {
-            type: String,
-            default: "test msg"
-        }
-    },
-    methods: {
-        tap1: function(){
-            console.log(1);
-            this.$emit('tap1',this.msg);
-        }
-    }
+    props: ['test']
 
 }
 </script>
 
 <style>
-.red{
-    color:red;
-}
+
 </style>
