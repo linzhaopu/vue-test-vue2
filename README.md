@@ -19,6 +19,10 @@ npm run build
 ```
 npm run lint
 ```
-
+```php
+function($a){
+ console.log($a);
+}
+```
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
